@@ -1,0 +1,14 @@
+$theme-colors: (
+     "primary": #db005e,
+     "secondary": #54dc87,
+     "dark": #2a2a2a,
+     "info": #56a7ac,
+     "light": #a3a3a3
+);
+
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, 'Comfortaa', cursive, Arial, sans-serif !default;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+@import "node_modules/bootstrap/scss/bootstrap";

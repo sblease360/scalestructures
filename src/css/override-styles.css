@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.parallax {
+    background-image: url("../assets/photos/architects-plans.jpg");
+    min-height: 100vh;
+    height: 100%;    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.parallax-spacer {
+    height: 200px;
+}
+
+.parallax-content {
+    height: auto;
+    background-color: rgba(42,42,42,.9);
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
