@@ -8,12 +8,19 @@ body {
 }
 
 .parallax {
-    background-image: url("../assets/photos/architects-plans.jpg");
     min-height: 100vh;
     height: 100%;    
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
+}
+
+.parallax-home {
+    background-image: url("../assets/photos/architects-plans.jpg");
+}
+
+.parallax-contact {
+    background-image: url("../assets/photos/contact-page-bg.jpg");
 }
 
 .parallax-spacer {
