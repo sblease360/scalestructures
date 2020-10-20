@@ -23,6 +23,10 @@ body {
     background-image: url("../assets/photos/contact-page-bg.jpg");
 }
 
+.parallax-success {
+    background-image: url("../assets/photos/success-page-bg.jpg");
+}
+
 .parallax-spacer {
     height: 200px;
 }
