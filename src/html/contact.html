@@ -46,23 +46,23 @@ c<html lang="en">
                             <div class="col-6">
                                 <h1 class="display-4 text-secondary pb-3">Ready to get in touch?</h1>
                                 <p class="m-0 p-0 mb-1">Whether you need more information or you are ready to start talking about your project, get in touch using the form below and we will get back to you shortly.</p>
-                                  <form class="kwes-form text-left" action="https://kwes.io/api/foreign/forms/KhjB0thcQjGLYwJx7yVH">
+                                  <form class="text-left">
                                     <div class="form-group">
                                       <label for="name" class="text-light">Your Name:</label>
-                                      <input type="text" class="form-control" name="name" rules="required">
+                                      <input type="text" class="form-control" name="name">
                                     </div>  
                                     <div class="form-group">
                                       <label for="email" class="text-light">Your Email Address:</label>
-                                      <input type="email" class="form-control" id="email" name="email" place-holder="Enter Email" rules="required_without:phone">                              
+                                      <input type="email" class="form-control" id="email" name="email" place-holder="Enter Email">                              
                                     </div>
                                     <div class="form-group">
                                       <label for="phone" class="text-light">Your Phone Number:</label>
-                                      <input type="text" class="form-control" id="phone" name="phone" place-holder="Enter Phone Number" rules="required_without:email">                        
+                                      <input type="text" class="form-control" id="phone" name="phone" place-holder="Enter Phone Number">                        
                                     </div>
                                     <div class="form-group">
                                       <label for="message" class="text-light m-0 p-0">Your Message:</label>
                                       <small class="form-text text-white m-0 p-0 mb-2">Be sure to include as much detail as possible about your enquiry, and let us know if you would prefer us to be contacted via phone or email.</small>    
-                                      <textarea class="form-control" name="message" rows="7" place-holder="Enter Your Message" rules="required"></textarea>                      
+                                      <textarea class="form-control" name="message" rows="7" place-holder="Enter Your Message"></textarea>                      
                                     </div>
                               
                                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -80,6 +80,12 @@ c<html lang="en">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://kwes.io/v2/kwes-script.js" defer></script>
+<script src="https://static.formx.stream/tracker/v1/bundle.js"></script>
+<script>
+var formx = FormX.set()
+formx.trackProject('scalestructures_d8e4cfbb-9f46-4262-8f15-c938dc762ccc')
+formx.trackForm('contact_69c45020-8238-4c13-ac61-66c72c724eab', 'form_id')
+formx.start()
+</script>
 </body>
 </html>
