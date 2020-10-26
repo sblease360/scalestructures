@@ -27,9 +27,22 @@ body {
     background-image: url("../assets/photos/success-page-bg.jpg");
 }
 
+.parallax-services {
+    background-image: url("../assets/photos/service-page-bg.jpg");
+}
+
 .parallax-spacer {
     height: 200px;
 }
+
+.parallax-spacer-small {
+    height: 50px;
+}
+
+.parallax-spacer-medium {
+    height: 100px;
+}
+
 
 .parallax-content {
     height: auto;
@@ -65,6 +78,6 @@ body {
 /* lg */
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 }
