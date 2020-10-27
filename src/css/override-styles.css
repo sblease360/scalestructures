@@ -31,6 +31,10 @@ body {
     background-image: url("../assets/photos/service-page-bg.jpg");
 }
 
+.parallax-testimonials {
+    background-image: url("../assets/photos/testimonial-page-bg.jpg");
+}
+
 .parallax-spacer {
     height: 200px;
 }
@@ -81,3 +85,16 @@ body {
         font-size: 1.1em;
     }
 }
+
+ /* iPad Parallax bg fix */
+ 
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
+    .x-section.bg-image.parallax, .x-section.bg-pattern.parallax {
+   background-attachment:scroll !important;
+      background-size: cover;
+      height: 100%;
+      overflow: hidden;
+    
+  }
+  }
+
