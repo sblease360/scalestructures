@@ -7,6 +7,10 @@ body {
     overflow-x: hidden;
 }
 
+footer {
+    bottom: 0px;
+}
+
 .parallax {
     min-height: 100vh;
     height: 100%;    
