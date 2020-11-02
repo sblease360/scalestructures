@@ -7,6 +7,20 @@ body {
     overflow-x: hidden;
 }
 
+body:after{
+    content:"";
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .parallax {
     min-height: 100vh;
     height: 100%;    
