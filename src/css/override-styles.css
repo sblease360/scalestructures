@@ -7,27 +7,16 @@ body {
     overflow-x: hidden;
 }
 
-body:after{
-    content:"";
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .parallax {
-    min-height: 100vh;
-    height: 100%;    
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background: url(...) no-repeat center center fixed; 
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
 }
 
 .parallax-home {
