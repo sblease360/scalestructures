@@ -27,6 +27,7 @@ body:after{
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .parallax-home {
@@ -60,7 +61,6 @@ body:after{
 .parallax-spacer-medium {
     height: 100px;
 }
-
 
 .parallax-content {
     height: auto;
@@ -99,5 +99,3 @@ body:after{
         font-size: 1.1em;
     }
 }
-
-
