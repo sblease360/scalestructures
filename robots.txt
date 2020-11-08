@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://scalestructures.co.uk/sitemap.xml
